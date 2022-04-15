@@ -1,0 +1,49 @@
+*{
+text-align: center;
+}
+
+.div_form{
+    margin-top: 10%;
+}
+
+.logo{
+    width: 20%;
+    height: 20%;
+}
+
+.l_numero_Etudiant{
+    text-align: center;
+    font-size: 20px;
+    padding: 5%;
+}
+
+.i_numero_Et{
+
+}
+#home{
+    background-image: url("../images/bg-efrei1.jpeg");
+}
+
+.col{
+    background-color: #d01c40;
+    padding: 5%;
+    border: solid 5px #d01c40;
+    width: 40%;
+}
+
+.container{
+    margin: auto;
+}
+
+th, td{
+    text-transform: uppercase;
+}
+
+.div_search{
+    margin-right: 5%;
+}
+
+h4{
+    height: 10%;
+    margin-bottom: 5%;
+}
