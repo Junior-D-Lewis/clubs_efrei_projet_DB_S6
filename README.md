@@ -22,11 +22,15 @@ requêtes et des vues demandées
           cd ./application
       b. Sur Linux
           cd application
+      c. Sur Mac
+          cd ~/application
 3. Accedez au server
       a. Sur Windows
           cd ./server
       b. Sur Linux
           cd server
+      c. Sur Mac
+          cd ~/server
 4. Installez les dependances liées a la Web API
          npm i ou npm install
 5. Demarrez le server

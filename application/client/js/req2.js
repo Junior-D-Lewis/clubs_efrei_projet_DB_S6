@@ -21,7 +21,7 @@ function loadHTMLTable(data) {
         tableHtml += "<tr>";
         tableHtml += `<td>${Id_evenement}</td>`;
         tableHtml += `<td>${nom}</td>`;
-        tableHtml += `<td>${date_debut}</td>`;
+        tableHtml += `<td>${date_debut.substr(0,10)}</td>`;
         tableHtml += `<td>${Id_Comite_Organisation}</td>`;
         tableHtml += `<td>${budget}</td>`;
         tableHtml += `<td>${Montant_depenses}</td>`;

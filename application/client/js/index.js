@@ -45,15 +45,14 @@ function loadHTMLTable(data) {
 
     let tableHtml = "";
 
-    data.forEach(function ({id_Club, nom, description, libelle_Type, numero_Et, President, classe, niveau }) {
+    data.forEach(function ({id_Club, nom, description, Type_Club, numero_Et, President, classe, niveau }) {
         tableHtml += "<tr>";
         tableHtml += `<td>${id_Club}</td>`;
         tableHtml += `<td>${nom}</td>`;
         tableHtml += `<td>${description}</td>`;
+        tableHtml += `<td>${Type_Club}</td>`;
+        tableHtml += `<td>${numero_Et}</td>`;
         tableHtml += `<td>${President}</td>`;
-        tableHtml += `<td>${libelle_Type}</td>`;
-        tableHtml += `<td>${numero_Et}</td>`;
-        tableHtml += `<td>${numero_Et}</td>`;
         tableHtml += `<td>${classe}</td>`;
         tableHtml += `<td>${niveau}</td>`;
         tableHtml += "</tr>";
